@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- icon file -->
+     <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static' , filename = 'icon/favicon.ico')}}" />
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- static CSS -->
+    <link
+    rel="stylesheet"
+    href="{{ url_for('static' , filename = 'css_files/main.css') }}"
+    />
+    <link
+    rel="stylesheet"
+    href="{{ url_for('static' , filename = 'css_files/text.css') }}"
+    />
+    <link
+    rel="stylesheet"
+    href="{{ url_for('static' , filename = 'css_files/img.css') }}"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class=" text-center text-white ">Whoops..</h1>
+      <h3 class=" text-center text-white ">404 page not found.</h3>
+      <img class=" center img-center" src="https://media.coschedule.com/uploads/vacation-1.gif" alt="Dogs on vacation">
+
+      <h2 class="text-center small no-marg text-white">Looks like this page went on a vacation.</h2>
+    
+      <h3 class=" text-center text-white ">Try our <a href="{{url_for('main.home_page')}}" alt="RASPEBERRY home_page">Home</a> instead</h4>
+    
+    </div>
+  </body>
+</html>

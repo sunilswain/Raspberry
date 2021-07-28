@@ -1,0 +1,16 @@
+
+.img-center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+  display: block;
+  width:50% ;
+  float:none ;
+  margin: auto ;
+  display:block ;
+  text-align: center;
+}
